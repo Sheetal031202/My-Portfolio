@@ -1,0 +1,313 @@
+:root {
+    --top-bg: #F5FBFF;
+    --top-left-icon: rgba(128, 128, 128, 0.512);
+    --top-right-icon: #007bffe4;
+    --ser-bg: #83C4FF;
+    --ser-bg2: #5DB2FF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+/* header--> topbar */
+.topbar {
+    background-color: var(--top-bg);
+}
+
+.topbar .top-left a i {
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.512);
+}
+
+.topbar .top-right a i {
+    font-size: 18px;
+    color: var(--top-right-icon);
+    margin-right: 5px;
+}
+
+.topbar .top-right span {
+    color: rgba(128, 128, 128, 0.512);
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+nav a {
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+/* banner */
+.slide1 {
+    background-image: url('../images/banner1.png.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.slide2 {
+    background-image: url('../images/banner2.png.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.banner h2,
+span {
+    font-size: 80px;
+}
+
+.banner p {
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+
+}
+
+/* services */
+.services {
+    background-color: var(--ser-bg);
+}
+
+.services .col-lg-4:nth-child(2) {
+    background-color: var(--ser-bg2);
+
+}
+
+
+.services .first,
+.sec,
+.third {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* welcome */
+
+.welcome {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.welcome .one {
+    position: absolute;
+
+}
+
+.welcome .two {
+    position: relative;
+    top: 150px;
+    left: 200px;
+
+}
+
+.welcome .border {
+    height: 3px;
+    width: 50px;
+    background-color: var(--ser-bg);
+}
+
+.welcome h2 {
+    margin-top: 30px;
+}
+
+.welcome p {
+    color: rgba(128, 128, 128, 0.807);
+    margin-top: 20px;
+
+}
+
+.welcome ul {
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.welcome ul li i {
+    color: var(--ser-bg);
+    margin: 0 10px;
+}
+
+.welcome ul li {
+    color: rgba(128, 128, 128, 0.912);
+
+}
+
+.welcome .bton {
+    background-color: white;
+    border: 2px solid var(--ser-bg);
+    color: var(--ser-bg);
+    margin-top: 20px;
+}
+
+/* department */
+.departments {
+    background-color: var(--top-bg);
+}
+
+.departments p {
+    color: rgba(128, 128, 128, 0.912);
+
+}
+
+.departments .dept:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+/* review */
+
+
+.review1 {
+    background-image: url('../images/review1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.review2 {
+    background-image: url('../images/review2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+/* busines info */
+
+.business-info i {
+    color: var(--ser-bg);
+    font-size: 80px;
+}
+
+.business-info p {
+    color: rgba(128, 128, 128, 0.912);
+}
+
+/* experts doctors */
+.ex-doc1,
+.ex-doc2,
+.ex-doc3,
+.ex-doc4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+
+}
+.ex-doc1{
+        background-image: url('../images/ex-doc1.webp');
+
+}
+
+.ex-doc2{
+        background-image: url('../images/ex-doc2.webp');
+
+}
+.ex-doc3{
+        background-image: url('../images/ex-doc3.webp');
+
+}
+.ex-doc4{
+        background-image: url('../images/ex-doc4.webp');
+
+}
+.expert-doctors .ex-content{
+
+    background-color: var(--top-bg);
+}
+.expert-doctors .dept{
+    height: 300px;
+    width: 250px;
+}
+.expert-doctors p {
+    color: rgba(128, 128, 128, 0.912);
+}
+
+/* contact */
+.con1, .con2 {
+      background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+
+}
+.con1{
+        background-image: url('../images/con1.webp');
+          
+
+}
+
+.con2{
+        background-image: url('../images/con2.webp');
+
+}
+.contact h3,p{
+    color: white;
+}
+
+
+
+/* footer */
+footer {
+    background-color: var(--ser-bg);
+    padding-top: 50px;
+}
+
+footer a i {
+    color: white;
+    font-size: 20px;
+}
+
+footer .foot-content li a {
+    color: white;
+    opacity: 0.5;
+}
+
+footer p {
+    opacity: 0.5;
+}
+
+
+footer .i {
+    background-color: var(--footer-bg);
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.i::placeholder {
+    color: white;
+}
+
+footer .footer-border p {
+    color: white;
+    opacity: 1.0;
+    display: inline;
+}
+footer .footer-border p span{
+    color: var(--top-bg);
+}

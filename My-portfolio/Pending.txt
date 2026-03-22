@@ -1,5 +1,6 @@
 footer
-project live
+midea query mention karvanu baki chhe
+project live vercel ya notify thi..
 social media icon  valu upar navbar ma ..icon na click thi link open 
 linked in account
 contat feild ma haju thodi feild

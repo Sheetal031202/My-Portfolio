@@ -1,0 +1,259 @@
+:root {
+    --top-bg: #C30047;
+    --menu-bg: #4c4c4c;
+    --support-bg: #FCF8F9;
+    --footer-bg: hsla(328, 77%, 12%, 0.993);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* (header) */
+/* topbar */
+.topbar {
+    background-color: var(--top-bg);
+    color: white;
+}
+
+.topbar .social a i {
+    color: white;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.topbar .social a:hover i {
+    transform: scaleX(-1)
+}
+
+/* navbar */
+nav .head-btn,
+.serving .serv-btn,
+.support .support-content .support-btn,
+.need-help .help-btn,
+.join .join-btn {
+    background-color: var(--top-bg);
+    border: var(--top-bg);
+}
+
+nav li a {
+    color: black;
+}
+
+nav ul li :hover {
+    color: var(--top-bg);
+    transition: transform 0.4s ease;
+
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+/* banner */
+.banner .banner1,
+.banner2,
+.banner3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner .banner1 {
+    background-image: url('../images/banner1.webp');
+
+}
+
+.banner .banner2 {
+    background-image: url('../images/banner2.webp');
+
+}
+
+.banner .banner3 {
+    background-image: url('../images/banner3.webp');
+
+}
+
+.banner .banner-btn {
+    background-color: #FF6378;
+}
+
+.banner .banner1 .content-1,
+.content-3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .banner2 .content-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+
+/* support */
+.support {
+    background-color: var(--support-bg);
+    margin-top: 100px;
+}
+
+.support-content h2,
+.banner h2,
+.join h2 {
+    font-weight: 600;
+}
+
+.support-content p,
+.banner p {
+    font-size: 20px;
+}
+
+.support-bg {
+    background-image: url('../images/support-bg.webp');
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.support-bg i {
+    font-size: 80px;
+}
+
+.support-bg .bg-content span {
+    font-size: 30px;
+
+}
+
+.support-bg .bg-content p {
+    font-size: 20px;
+
+}
+
+/* serv-2 */
+.serv-2 {
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+.serv-2 h2 {
+    font-size: 40px;
+}
+
+.serv-2 h3:hover {
+    color: var(--top-bg);
+}
+
+.serv-2 i {
+    color: var(--top-bg);
+    font-size: 40px;
+    background-color: #c300481b;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+/* need-help */
+.help-box {
+
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    position: absolute;
+    height: 350px;
+    width: 500px;
+    top: 100px;
+    right: 200px;
+    box-sizing: border-box;
+
+}
+
+.need-help {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.help-banner::before {
+    content: "";
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('../images/nedd_help.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.help-banner {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.join .j1 {
+    margin: 30px;
+}
+
+/* footer */
+footer {
+    background-color: var(--footer-bg);
+    padding-top: 50px;
+}
+
+footer a i {
+    color: white;
+    font-size: 20px;
+}
+
+footer .foot-content li a {
+    color: white;
+    opacity: 0.5;
+}
+
+footer p {
+    opacity: 0.5;
+}
+
+
+footer .i {
+    background-color: var(--footer-bg);
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.i::placeholder {
+    color: white;
+}
+
+footer .footer-border p {
+    color: white;
+    opacity: 1.0;
+    display: inline;
+}
+footer .footer-border p span{
+    color: var(--top-bg);
+}

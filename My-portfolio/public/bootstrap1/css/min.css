@@ -1,0 +1,13 @@
+/* @media(min-width:768px) {
+    .ban-box {
+        background-color: black;
+    }
+} */.ban-box {
+    background-color: white; /* or any default */
+}
+
+@media (min-width: 768px) {
+    .ban-box {
+        background-color: black;
+    }
+}

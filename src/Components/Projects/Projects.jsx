@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import charity from "../../assets/bootstrap1.png";
 import docmed from "../../assets/docmed.png";
 import chariter from "../../assets/chariter.png";
-import image4 from "../../assets/image4.jpg";
+import node1 from "../../assets/node1_normalJson.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -32,9 +32,10 @@ export default function Projects() {
     },
     {
       id: 4,
-      image: image4,
-      title: "Project 4",
-      description: "Photo description for project 4",
+      image: node1,
+      title:"Student Registration",
+      description: "Basic crud in node ",
+      link: "https://node-1-1.onrender.com/",
     },
   ];
 

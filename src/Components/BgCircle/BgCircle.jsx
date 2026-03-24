@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 
 // ✅ Correct asset imports
-import CV from "../../assets/cv.pdf"
+import CV from "../../assets/myCv.pdf"
 import hi from "../../assets/hi.jpg"
 import myPc from "../../assets/myPc.jpg"
 

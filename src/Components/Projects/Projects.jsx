@@ -5,6 +5,7 @@ import docmed from "../../assets/docmed.png";
 import chariter from "../../assets/chariter.png";
 import node1 from "../../assets/node1_normalJson.png";
 import node2 from "../../assets/node2_adminPanel.png";
+import react1 from "../../assets/reactFlipkart.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -14,21 +15,21 @@ export default function Projects() {
       id: 1,
       image: charity,
       title: "Love and care charity",
-      description: "Html bootstrap Project 1",
+  description: "HTML & Bootstrap Project 1 : Responsive charity website with About, Services, and Contact sections .",
       link: "/bootstrap1/index.html", // must be in public/
     },
     {
       id: 2,
       image: docmed,
       title: "docmed",
-      description: "Html bootstrap Project 2",
+  description: "HTML & Bootstrap Project 2 : Medical services website template with Doctors, Appointments, and Services pages .",
       link: "/docmed/index.html",
     },
     {
       id: 3,
       image: chariter,
       title: "chariter",
-      description: "Html bootstrap Project 3",
+  description: " HTML & Bootstrap Project 3: Charity  website template with Donations, Events, and Team sections, fully responsive.",
       link: "/charieter/index.html",
     },
     {
@@ -44,8 +45,16 @@ export default function Projects() {
       image: node2,
       title: "Admin panel",
       description:
-        "Node project 2 - Passport.js and session-based login system, login, logout",
-      link: "https://node-2-admin-panel-2.onrender.com/",
+        "Node project 2 -CRUD functionality allowing  Passport.js and session-based login system, login, logout",
+      link: "https://node2-adminpanel.onrender.com",
+    },
+     {
+      id: 6,
+      image: react1,
+      title: "E commerce ",
+      description: " React Project 1:Dynamic e-commerce web app with product listings, category filtering, search, and responsive design.",
+
+      link: "https://github.com/Sheetal031202/react-1",
     },
   ];
 

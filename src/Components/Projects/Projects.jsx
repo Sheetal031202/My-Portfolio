@@ -16,7 +16,7 @@ export default function Projects() {
       image: charity,
       title: "Love and care charity",
   description: "HTML & Bootstrap Project 1 : Responsive charity website with About, Services, and Contact sections .",
-      link: "/bootstrap1/index.html", // must be in public/
+      link: "/bootstrap1/index.html"
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ export default function Projects() {
       title: "E commerce ",
       description: " React Project 1:Dynamic e-commerce web app with product listings, category filtering, search, and responsive design.",
 
-      link: "https://github.com/Sheetal031202/react-1",
+      link: "https://react-1-api.onrender.com",
     },
   ];
 
@@ -65,9 +65,9 @@ export default function Projects() {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    autoplay: true,           // ✅ enable automatic scroll
-    autoplaySpeed: 2000,      // ✅ 3 seconds per slide
-    pauseOnHover: true,       // ✅ pause when hovered
+    autoplay: true,           
+    autoplaySpeed: 2000,     
+    pauseOnHover: true,       
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 700, settings: { slidesToShow: 1 } },

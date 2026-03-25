@@ -54,7 +54,7 @@ export default function Projects() {
       title: "E commerce ",
       description: " React Project 1:Dynamic e-commerce web app with product listings, category filtering, search, and responsive design.",
 
-      link: "https://react-1-api.onrender.com",
+      link: "beamish-dango-ef16f7.netlify.app",
     },
   ];
 
@@ -67,7 +67,7 @@ export default function Projects() {
     arrows: true,
     autoplay: true,           
     autoplaySpeed: 2000,     
-    pauseOnHover: true,       
+    pauseOnHover: true,      
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 700, settings: { slidesToShow: 1 } },

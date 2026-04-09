@@ -69,7 +69,7 @@ export default function Projects() {
       id: 8,
       image: Javascript2,
       title: "Weather Api ",
-      description: "using JavaScript by integrating a weather API to fetch real-time dataand  displaying temperature   with a user-friendly interface.",
+      description: "JavaScript:  integrating a weather API to fetch real-time dataand  displaying temperature   with a user-friendly interface.",
       link: "/weatherApi/index.html",
     }
 

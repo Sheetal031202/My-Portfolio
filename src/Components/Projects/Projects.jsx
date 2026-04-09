@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import charity from "../../assets/bootstrap1.png";
 import docmed from "../../assets/docmed.png";
@@ -6,6 +5,8 @@ import chariter from "../../assets/chariter.png";
 import node1 from "../../assets/node1_normalJson.png";
 import node2 from "../../assets/node2_adminPanel.png";
 import react1 from "../../assets/reactFlipkart.png";
+import Javascript1 from "../../assets/todo.png";
+import Javascript2 from "../../assets/weatherApi.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -56,6 +57,22 @@ export default function Projects() {
 
       link: "https://beamish-dango-ef16f7.netlify.app/",
     },
+     {
+      id: 7,
+      image: Javascript1,
+      title: "Todo list ",
+      description: "  Todo list using  JavaScript, incorporating DOM manipulation, event handling and responsive UI design.",
+
+      link: "/todo/index.html",
+    },
+     {
+      id: 8,
+      image: Javascript2,
+      title: "Weather Api ",
+      description: "weather application using JavaScript by integrating a weather API to fetch real-time dataand  displaying temperature   with a user-friendly interface.",
+      link: "/weatherApi/index.html",
+    }
+
   ];
 
   const settings = {

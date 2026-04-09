@@ -55,7 +55,7 @@ export default function Projects() {
       title: "E commerce ",
       description: " React Project 1:Dynamic e-commerce web app with product listings, category filtering, search, and responsive design.",
 
-      link: "https://beamish-dango-ef16f7.netlify.app/",
+      link: "https://react-1-ecommerce-flipcart.vercel.app/",
     },
      {
       id: 7,

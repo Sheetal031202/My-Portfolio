@@ -7,6 +7,7 @@ import node2 from "../../assets/node2_adminPanel.png";
 import react1 from "../../assets/reactFlipkart.png";
 import Javascript1 from "../../assets/todo.png";
 import Javascript2 from "../../assets/weatherApi.png";
+import fullstack1 from "../../assets/fullstack1"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -71,6 +72,13 @@ export default function Projects() {
       title: "Weather Api ",
       description: "JavaScript:integrating a weather API to fetch data and displaying temperature with a user-friendly interface.",
       link: "/weatherApi/index.html",
+    },
+     {
+      id: 9,
+      image: fullstack1,
+      title: "Full stack ",
+      description: "Full-stack Movie App using MERN stack with CRUD functionality, REST APIs, and responsive React UI, deployed on cloud platforms.",
+      link: "movie-frontend-blush.vercel.app",
     }
 
   ];

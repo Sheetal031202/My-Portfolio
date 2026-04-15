@@ -78,7 +78,7 @@ export default function Projects() {
       image: fullstack1,
       title: "Full stack ",
       description: "Full-stack Movie App using MERN stack with CRUD functionality, REST APIs, and responsive React UI, deployed on cloud platforms.",
-      link: "movie-frontend-blush.vercel.app",
+      link: "https://movie-frontend-blush.vercel.app/",
     }
 
   ];

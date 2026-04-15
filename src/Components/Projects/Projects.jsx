@@ -7,7 +7,7 @@ import node2 from "../../assets/node2_adminPanel.png";
 import react1 from "../../assets/reactFlipkart.png";
 import Javascript1 from "../../assets/todo.png";
 import Javascript2 from "../../assets/weatherApi.png";
-import fullstack1 from "../../assets/fullstack1"
+import fullstack1 from "../../assets/fullstack1.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
